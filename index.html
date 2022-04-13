@@ -22,7 +22,7 @@
 		<div id="wrapper">
 			<header class="configuration-tab">
 				<div class="configuration lang">
-					<span>한국어</span> | <span>ENG</span>
+					<span id="kor-lang">한국어</span> | <span id="eng-lang">ENG</span>
 				</div>
 				<div class="configuration mode">
 					<span id="light-mode">Light</span> | <span id="dark-mode">Dark</span>
@@ -58,8 +58,10 @@
 								alt="Project 1"
 							/>
 							<div class="project-info__container">
-								<h3 class="project-info__name">Project 1</h3>
-								<p class="project-info__desc">Project Description</p>
+								<h3 class="project-info__name">Todo List</h3>
+								<p class="project-info__desc" id="project-one__desc">
+									A minimalistic React application for managing our daily todos.
+								</p>
 							</div>
 						</div>
 
@@ -71,7 +73,9 @@
 							/>
 							<div class="project-info__container">
 								<h3 class="project-info__name">Project 2</h3>
-								<p class="project-info__desc">Project Description</p>
+								<p class="project-info__desc" id="project-two__desc">
+									Project Description
+								</p>
 							</div>
 						</div>
 
@@ -83,7 +87,9 @@
 							/>
 							<div class="project-info__container">
 								<h3 class="project-info__name">Project 3</h3>
-								<p class="project-info__desc">Project Description</p>
+								<p class="project-info__desc" id="project-three__desc">
+									Project Description
+								</p>
 							</div>
 						</div>
 					</div>
@@ -216,6 +222,10 @@
 					</div>
 				</section>
 			</main>
+
+			<footer>
+				<p>© 2022 Daeram Chung. All Rights Reserved.</p>
+			</footer>
 		</div>
 
 		<script src="assets/js/index.js"></script>
