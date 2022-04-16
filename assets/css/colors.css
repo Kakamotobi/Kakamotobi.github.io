@@ -16,9 +16,9 @@
 	--nodejs-icon: url("../images/technologies/nodejs-icon-white.svg");
 	--express-icon: url("../images/technologies/express-icon-white.svg");
 	--mongodb-icon: url("../images/technologies/mongodb-icon-white.svg");
-	--github-icon: url("../images/github-icon-white.svg");
-	--linkedin-icon: url("../images/linkedin-icon-white.svg");
-	--email-icon: url("../images/email-icon-white.svg");
+	--github-icon: url("../images/contacts/github-icon-white.svg");
+	--linkedin-icon: url("../images/contacts/linkedin-icon-white.svg");
+	--email-icon: url("../images/contacts/email-icon-white.svg");
 }
 
 .active {
