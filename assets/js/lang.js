@@ -38,7 +38,7 @@ engLang.addEventListener("click", (evt) => {
 	bioName.innerText = "Daeram Chung";
 	bioGreetings.innerText = "Hi there. 👋";
 	bioAboutMe.innerText =
-		"I am an aspiring front-end developer 1 year into programming. I am immersed in the contemplation of writing code that is clean and refine. Above all, I realize the value of dedication and consistency, which I am actualizing through daily commits. My self-learning journey has been a splendid one and I am keen to continue my endeavors.";
+		"I am an aspiring front-end developer 1 year into programming. I am immersed in contemplation of writing code that is clean and refine. Above all, I realize the value of dedication and consistency, which I am actualizing through daily commits. My self-learning journey has been a splendid one and I am keen to continue my endeavors.";
 	downloadResume.innerText = "Download Resume";
 	projectOneDesc.innerText =
 		"A minimalistic React application for managing our daily todos, providing functionality to add, edit, check-off and remove todos";
