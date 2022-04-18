@@ -1,15 +1,14 @@
-const lightMode = document.querySelector("#light-mode");
-const darkMode = document.querySelector("#dark-mode");
+const configMode = document.querySelector(".configuration.mode");
+const modeSwitches = document.querySelectorAll(".mode-switch");
 const body = document.querySelector("body");
 
-darkMode.addEventListener("click", (evt) => {
-	body.classList.add("dark");
-	darkMode.classList.add("active");
-	lightMode.classList.remove("active");
-});
+for (let modeSwitch of modeSwitches) {
+	modeSwitch.addEventListener("click", () => {
+		const mode = modeSwitch.getAttribute("mode");
+		if (mode === "dark") body.classList.add("dark");
+		else if (mode === "light") body.classList.remove("dark");
 
-lightMode.addEventListener("click", () => {
-	body.classList.remove("dark");
-	lightMode.classList.add("active");
-	darkMode.classList.remove("active");
-});
+		configMode.querySelector(".active")?.classList.remove("active");
+		modeSwitch.classList.add("active");
+	});
+}
