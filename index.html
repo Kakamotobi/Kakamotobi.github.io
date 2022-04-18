@@ -22,7 +22,8 @@
 		<div id="wrapper">
 			<header class="configuration-tab">
 				<div class="configuration lang">
-					<span id="kor-lang">한국어</span> | <span id="eng-lang">ENG</span>
+					<span class="lang-switch" lang="kor">KOR</span> |
+					<span class="lang-switch" lang="eng">ENG</span>
 				</div>
 				<div class="configuration mode">
 					<span id="light-mode">Light</span> | <span id="dark-mode">Dark</span>
@@ -33,7 +34,7 @@
 				<section class="bio-section">
 					<h1 class="bio__name">Daeram Chung</h1>
 					<div class="bio__about-me__container">
-						<h2 class="bio__greetings">Hi there. 👋</h2>
+						<h2 class="bio__greetings">Hi there 👋</h2>
 						<p class="bio__about-me">
 							I am an aspiring front-end developer 1 year into programming. I am
 							immersed in contemplation of writing code that is clean and
@@ -45,15 +46,15 @@
 						<div class="download-resume__container">
 							<a
 								class="download-resume"
-								id="download-resume-eng"
-								href="./Daeram-Chung-Resume-Eng.pdf"
-								>Resume (ENG)</a
-							>
-							<a
-								class="download-resume"
 								id="download-resume-kor"
 								href="./Daeram-Chung-Resume-Kor.pdf"
 								>Resume (KOR)</a
+							>
+							<a
+								class="download-resume"
+								id="download-resume-eng"
+								href="./Daeram-Chung-Resume-Eng.pdf"
+								>Resume (ENG)</a
 							>
 						</div>
 					</div>
@@ -193,7 +194,7 @@
 						</div>
 						<div class="email-form__container">
 							<h3>Get In Touch</h3>
-							<p>
+							<p class="email-form__guide">
 								You can contact me on this form or via
 								<a href="mailto:daeram.chung@gmail.com"
 									>daeram.chung@gmail.com</a
@@ -249,6 +250,7 @@
 			</footer>
 		</div>
 
+		<script src="assets/js/data.js"></script>
 		<script src="assets/js/mode.js"></script>
 		<script src="assets/js/lang.js"></script>
 	</body>
