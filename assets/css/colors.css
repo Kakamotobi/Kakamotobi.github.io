@@ -6,6 +6,8 @@
 	--link: #4065b8;
 	--link-hover: #4064b8c7;
 	--text-selection: #617cbcaa;
+	--feedback-red: #ff000048;
+	--feedback-green: #00800048;
 }
 
 .dark {
