@@ -97,8 +97,13 @@ section {
 	font-weight: 300;
 }
 
-#download-resume {
-	align-self: flex-end;
+.download-resume__container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.download-resume {
+	margin-left: 10px;
 	padding: 10px 20px;
 	background-color: var(--link);
 	border-radius: 3px;
@@ -107,8 +112,8 @@ section {
 	transition: all 150ms ease-out;
 }
 
-#download-resume:hover,
-#download-resume:focus {
+.download-resume:hover,
+.download-resume:focus {
 	background-color: var(--link-hover);
 }
 
