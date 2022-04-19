@@ -217,39 +217,33 @@ section {
 	align-items: center;
 }
 
-.links__link {
+.link {
 	width: 60px;
 	margin: 20px;
 }
 
-.links__link img {
+.link > svg {
 	width: inherit;
 }
 
-#github-icon {
-	content: var(--github-icon);
+#github-icon:hover #github-icon-bg,
+#linkedin-icon:hover #linkedin-icon-bg,
+#email-icon:hover #email-icon-lines {
+	fill: var(--link-hover);
 }
 
-#github-link:hover #github-icon {
-	content: var(--github-icon-hover);
+.dark #github-icon-bg,
+.dark #linkedin-icon-bg,
+.dark #email-icon-lines {
+	fill: var(--tertiary);
 }
 
-#linkedin-icon {
-	content: var(--linkedin-icon);
+.dark #github-icon-char,
+.dark #linkedin-icon-char {
+	fill: var(--primary);
 }
 
-#linkedin-link:hover #linkedin-icon {
-	content: var(--linkedin-icon-hover);
-}
-
-#email-icon {
-	content: var(--email-icon);
-}
-
-#email-link:hover #email-icon {
-	content: var(--email-icon-hover);
-}
-
+/* Email Form */
 .email-form__container {
 	width: 70%;
 }
