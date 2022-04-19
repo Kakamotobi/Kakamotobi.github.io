@@ -23,6 +23,6 @@
 	--email-icon: url("../images/contacts/email-icon-white.svg");
 }
 
-.active {
+.link-active {
 	color: var(--link-hover);
 }

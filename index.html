@@ -21,13 +21,20 @@
 	<body>
 		<div id="wrapper">
 			<header class="configuration-tab">
-				<div class="configuration lang">
-					<span class="lang-switch" lang="kor">KOR</span> |
-					<span class="lang-switch" lang="eng">ENG</span>
+				<div class="configurations-container">
+					<div class="configuration lang">
+						<span class="lang-switch" lang="kor">KOR</span> |
+						<span class="lang-switch" lang="eng">ENG</span>
+					</div>
+					<div class="configuration mode">
+						<span class="mode-switch" mode="light">Light</span> |
+						<span class="mode-switch" mode="dark">Dark</span>
+					</div>
 				</div>
-				<div class="configuration mode">
-					<span class="mode-switch" mode="light">Light</span> |
-					<span class="mode-switch" mode="dark">Dark</span>
+
+				<div class="configurations-burger">
+					<span class="burger-btn open-burger" button="open">O</span>
+					<span class="burger-btn close-burger" button="close">X</span>
 				</div>
 			</header>
 
@@ -260,5 +267,6 @@
 		<script src="assets/js/lang.js"></script>
 		<script src="assets/js/mode.js"></script>
 		<script src="assets/js/form.js"></script>
+		<script src="assets/js/burger.js"></script>
 	</body>
 </html>

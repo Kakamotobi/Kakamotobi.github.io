@@ -32,17 +32,26 @@ body {
 
 /* Header */
 .configuration-tab {
-	width: 100%;
 	margin-bottom: 100px;
 	padding-top: 25px;
 	display: flex;
-	justify-content: flex-end;
+	align-self: flex-end;
 	position: sticky;
 	top: 0;
 }
 
-.configuration {
+.configurations-container {
+	width: 100%;
+	display: flex;
+}
+
+.configuration:last-of-type {
 	margin-left: 20px;
+}
+
+.configuration::selection,
+.configuration span::selection {
+	background: none;
 }
 
 .configuration span {
@@ -52,6 +61,10 @@ body {
 
 .configuration span:hover {
 	color: var(--link-hover);
+}
+
+.configurations-burger {
+	display: none;
 }
 
 /* Main */
@@ -318,7 +331,7 @@ footer {
 	text-align: center;
 }
 
-/* Animation */
+/* Feedback Animation */
 @keyframes feedback {
 	0% {
 		visibility: visible;
@@ -331,5 +344,71 @@ footer {
 	100% {
 		visibility: hidden;
 		opacity: 0;
+	}
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 1415px) {
+	.configurations-container {
+		display: none;
+	}
+
+	.configurations-burger {
+		display: block;
+	}
+
+	.burger-btn {
+		margin-left: 20px;
+		font-weight: 500;
+		cursor: pointer;
+	}
+
+	.burger-btn:hover,
+	.burger-btn:focus {
+		color: var(--link-hover);
+	}
+
+	.burger-btn::selection {
+		background: none;
+	}
+
+	.open-burger {
+		display: block;
+	}
+
+	.close-burger {
+		display: none;
+	}
+
+	.burger-active {
+		display: flex;
+	}
+
+	.burger-inactive {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1039px) {
+	.projects__container {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 719px) {
+	.project {
+		width: 100%;
+		max-width: none;
+	}
+
+	.input-contacts__wrapper {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.download-resume {
+		max-width: 100px;
+		text-align: center;
 	}
 }

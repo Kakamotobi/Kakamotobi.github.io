@@ -14,8 +14,8 @@ const formSubmitBtn = document.querySelector(".form__submit-btn");
 
 for (let langSwitch of langSwitches) {
 	langSwitch.addEventListener("click", () => {
-		configLang.querySelector(".active")?.classList.remove("active");
-		langSwitch.classList.add("active");
+		configLang.querySelector(".link-active")?.classList.remove("link-active");
+		langSwitch.classList.add("link-active");
 
 		const lang = langSwitch.getAttribute("lang");
 

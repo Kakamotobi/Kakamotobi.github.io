@@ -8,7 +8,7 @@ for (let modeSwitch of modeSwitches) {
 		if (mode === "dark") body.classList.add("dark");
 		else if (mode === "light") body.classList.remove("dark");
 
-		configMode.querySelector(".active")?.classList.remove("active");
-		modeSwitch.classList.add("active");
+		configMode.querySelector(".link-active")?.classList.remove("link-active");
+		modeSwitch.classList.add("link-active");
 	});
 }
