@@ -67,6 +67,10 @@ body {
 	display: none;
 }
 
+.link-active {
+	color: var(--link);
+}
+
 /* Main */
 main {
 	max-width: 940px;
@@ -226,12 +230,24 @@ section {
 	content: var(--github-icon);
 }
 
+#github-link:hover #github-icon {
+	content: var(--github-icon-hover);
+}
+
 #linkedin-icon {
 	content: var(--linkedin-icon);
 }
 
+#linkedin-link:hover #linkedin-icon {
+	content: var(--linkedin-icon-hover);
+}
+
 #email-icon {
 	content: var(--email-icon);
+}
+
+#email-link:hover #email-icon {
+	content: var(--email-icon-hover);
 }
 
 .email-form__container {

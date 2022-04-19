@@ -8,6 +8,9 @@
 	--text-selection: #617cbcaa;
 	--feedback-red: #ff000048;
 	--feedback-green: #00800048;
+	--github-icon-hover: url("../images/contacts/github-icon-hover-light.svg");
+	--linkedin-icon-hover: url("../images/contacts/linkedin-icon-hover.svg");
+	--email-icon-hover: url("../images/contacts/email-icon-hover.svg");
 }
 
 .dark {
@@ -19,10 +22,7 @@
 	--express-icon: url("../images/technologies/express-icon-white.svg");
 	--mongodb-icon: url("../images/technologies/mongodb-icon-white.svg");
 	--github-icon: url("../images/contacts/github-icon-white.svg");
+	--github-icon-hover: url("../images/contacts/github-icon-hover-dark.svg");
 	--linkedin-icon: url("../images/contacts/linkedin-icon-white.svg");
 	--email-icon: url("../images/contacts/email-icon-white.svg");
-}
-
-.link-active {
-	color: var(--link-hover);
 }
