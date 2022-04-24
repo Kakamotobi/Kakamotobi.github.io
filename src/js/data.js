@@ -9,7 +9,7 @@ const data = {
 		projectOneDesc:
 			"A minimalistic React application for managing our daily todos, providing functionality to add, edit, check-off and remove todos.",
 		projectTwoDesc:
-			"A web application that uses OpenWeatherMap's API to display the weather at your current location and another location.",
+			"A web application that uses OpenWeatherMap and WeatherAPI's APIs to display the weather at your current location and other locations.",
 		projectThreeDesc:
 			"A landing page responsive layout challenge provided by frontendmentor.io.",
 		emailFormGuide:
@@ -26,7 +26,7 @@ const data = {
 		projectOneDesc:
 			"리액트를 이용하여 만든 데일리 투두 리스트를 관리할 수 있는 웹 어플리케이션입니다. 추가, 수정, 체크, 삭제 기능을 지원합니다.",
 		projectTwoDesc:
-			"OpenWeatherMap API를 활용하여 현재 위치와 다른 지역의 날씨를 알려주는 웹 어플리케이션입니다.",
+			"OpenWeatherMap과 WeatherAPI의 API를 활용하여 현재 위치와 다른 지역의 날씨 정보를 알려주는 웹 어플리케이션입니다.",
 		projectThreeDesc:
 			"랜딩 페이지의 반응적 레이아웃을 구현하는 frontendmentor.io의 챌린지입니다.",
 		emailFormGuide:
