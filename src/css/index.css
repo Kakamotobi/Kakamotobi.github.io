@@ -137,14 +137,14 @@ section {
 /* Projects Section */
 .projects__container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	column-gap: 20px;
 	row-gap: 20px;
 }
 
 .project {
-	max-width: 300px;
+	max-width: 400px;
 	display: flex;
 	flex-direction: column;
 	background-color: var(--secondary);
@@ -396,12 +396,6 @@ footer {
 
 	.burger-inactive {
 		display: none;
-	}
-}
-
-@media screen and (max-width: 1039px) {
-	.projects__container {
-		justify-content: center;
 	}
 }
 

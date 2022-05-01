@@ -12,6 +12,8 @@ const data = {
 			"A web application that uses OpenWeatherMap and WeatherAPI's APIs to display the weather at your current location and other locations.",
 		projectThreeDesc:
 			"A landing page responsive layout challenge provided by frontendmentor.io.",
+		projectFourDesc:
+			"A noticeboard that allows users to creating gatherings for different activities.",
 		emailFormGuide:
 			"You can contact me on this form or via <a href='mailto:daeram.chung@gmail.com'>daeram.chung@gmail.com</a>.",
 		formSubmitBtn: "Send",
@@ -29,6 +31,8 @@ const data = {
 			"OpenWeatherMap과 WeatherAPI의 API를 활용하여 현재 위치와 다른 지역의 날씨 정보를 알려주는 웹 어플리케이션입니다.",
 		projectThreeDesc:
 			"랜딩 페이지의 반응적 레이아웃을 구현하는 frontendmentor.io의 챌린지입니다.",
+		projectFourDesc:
+			"사용자들이 각종 모임을 만들기 위해 활용할 수 있는 게시판입니다.",
 		emailFormGuide:
 			"연락이 필요하시면 아래 폼에 입력해주시거나 <a href='mailto:daeram.chung@gmail.com'>daeram.chung@gmail.com</a>을 통해 연락해주세요.",
 		formSubmitBtn: "보내기",

@@ -9,6 +9,7 @@ const downloadResumeEng = document.querySelector("#download-resume-eng");
 const projectOneDesc = document.querySelector("#project-one__desc");
 const projectTwoDesc = document.querySelector("#project-two__desc");
 const projectThreeDesc = document.querySelector("#project-three__desc");
+const projectFourDesc = document.querySelector("#project-four__desc");
 const emailFormGuide = document.querySelector(".email-form__guide");
 const formSubmitBtn = document.querySelector(".form__submit-btn");
 
@@ -27,6 +28,7 @@ for (let langSwitch of langSwitches) {
 		projectOneDesc.innerText = data[lang].projectOneDesc;
 		projectTwoDesc.innerText = data[lang].projectTwoDesc;
 		projectThreeDesc.innerText = data[lang].projectThreeDesc;
+		projectFourDesc.innerText = data[lang].projectFourDesc;
 		emailFormGuide.innerHTML = data[lang].emailFormGuide;
 		formSubmitBtn.innerText = data[lang].formSubmitBtn;
 	});
