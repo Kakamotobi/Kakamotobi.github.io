@@ -13,7 +13,7 @@ const data = {
 		projectThreeDesc:
 			"A landing page responsive layout challenge provided by frontendmentor.io.",
 		projectFourDesc:
-			"A noticeboard that allows users to creating gatherings for different activities.",
+			"A noticeboard that allows users to create gatherings for different activities.",
 		emailFormGuide:
 			"You can contact me on this form or via <a href='mailto:daeram.chung@gmail.com'>daeram.chung@gmail.com</a>.",
 		formSubmitBtn: "Send",
