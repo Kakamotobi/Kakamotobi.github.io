@@ -26,9 +26,9 @@ const data = {
 		downloadResumeKor: "이력서 (국문)",
 		downloadResumeEng: "이력서 (영문)",
 		projectOneDesc:
-			"리액트를 이용하여 만든 데일리 투두 리스트를 관리할 수 있는 웹 어플리케이션입니다. 추가, 수정, 체크, 삭제 기능을 지원합니다.",
+			"리액트를 이용하여 만든 데일리 투두 리스트를 관리할 수 있는 웹 애플리케이션입니다. 추가, 수정, 체크, 삭제 기능을 지원합니다.",
 		projectTwoDesc:
-			"OpenWeatherMap과 WeatherAPI의 API를 활용하여 현재 위치와 다른 지역의 날씨 정보를 알려주는 웹 어플리케이션입니다.",
+			"OpenWeatherMap과 WeatherAPI의 API를 활용하여 현재 위치와 다른 지역의 날씨 정보를 알려주는 웹 애플리케이션입니다.",
 		projectThreeDesc:
 			"랜딩 페이지의 반응적 레이아웃을 구현하는 frontendmentor.io의 챌린지입니다.",
 		projectFourDesc:
