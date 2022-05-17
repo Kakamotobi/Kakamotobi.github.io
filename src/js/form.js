@@ -22,14 +22,14 @@ const handleSubmit = async (evt) => {
 						formFeedback.innerHTML = data["errors"]
 							.map((error) => error["message"])
 							.join(", ");
-						formFeedback.classList.add("error");
 					} else {
 						formFeedback.innerHTML =
 							"Oops! There was a problem sending your message. Please try again.";
-						formFeedback.classList.add("error");
 					}
+					formFeedback.classList.add("error");
 				});
 			}
+			setTimeout(() => (formFeedback.className = ""), 3000);
 		})
 		.catch((err) => {
 			formFeedback.innerHTML =
