@@ -10,26 +10,35 @@ const projectOneDesc = document.querySelector("#project-one__desc");
 const projectTwoDesc = document.querySelector("#project-two__desc");
 const projectThreeDesc = document.querySelector("#project-three__desc");
 const projectFourDesc = document.querySelector("#project-four__desc");
+const projectFiveDesc = document.querySelector("#project-five__desc");
+const technologiesProficient = document.querySelector(
+  ".technologies__proficient"
+);
+const technologiesInterested = document.querySelector(
+  ".technologies__interested"
+);
 const emailFormGuide = document.querySelector(".email-form__guide");
 const formSubmitBtn = document.querySelector(".form__submit-btn");
 
 for (let langSwitch of langSwitches) {
-	langSwitch.addEventListener("click", () => {
-		configLang.querySelector(".link-active")?.classList.remove("link-active");
-		langSwitch.classList.add("link-active");
+  langSwitch.addEventListener("click", () => {
+    configLang.querySelector(".link-active")?.classList.remove("link-active");
+    langSwitch.classList.add("link-active");
 
-		const lang = langSwitch.getAttribute("lang");
+    const lang = langSwitch.getAttribute("lang");
 
-		bioName.innerText = data[lang].bioName;
-		bioGreetings.innerText = data[lang].bioGreetings;
-		bioAboutMe.innerText = data[lang].bioAboutMe;
-		downloadResumeKor.innerText = data[lang].downloadResumeKor;
-		downloadResumeEng.innerText = data[lang].downloadResumeEng;
-		projectOneDesc.innerText = data[lang].projectOneDesc;
-		projectTwoDesc.innerText = data[lang].projectTwoDesc;
-		projectThreeDesc.innerText = data[lang].projectThreeDesc;
-		projectFourDesc.innerText = data[lang].projectFourDesc;
-		emailFormGuide.innerHTML = data[lang].emailFormGuide;
-		formSubmitBtn.innerText = data[lang].formSubmitBtn;
-	});
+    bioName.innerText = data[lang].bioName;
+    bioGreetings.innerText = data[lang].bioGreetings;
+    bioAboutMe.innerText = data[lang].bioAboutMe;
+    downloadResumeKor.innerText = data[lang].downloadResumeKor;
+    downloadResumeEng.innerText = data[lang].downloadResumeEng;
+    projectOneDesc.innerText = data[lang].projectOneDesc;
+    projectTwoDesc.innerText = data[lang].projectTwoDesc;
+    projectThreeDesc.innerText = data[lang].projectThreeDesc;
+    projectFourDesc.innerText = data[lang].projectFourDesc;
+    technologiesProficient.innerText = data[lang].technologiesProficient;
+    technologiesInterested.innerText = data[lang].technologiesInterested;
+    emailFormGuide.innerHTML = data[lang].emailFormGuide;
+    formSubmitBtn.innerText = data[lang].formSubmitBtn;
+  });
 }
